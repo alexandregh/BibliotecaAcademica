@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Biblioteca Acadêmica Online - Professores";
+    Layout = "~/Shared/_Home.cshtml";
+}
+
+<article class="col-md-6 offset-3 telaLogin">
+    <h3 class="tituloH3">Sistema de Biblioteca Online</h3>
+    <h6 class="tituloH6">Login de Professores</h6>
+    <article>
+        <form>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="text" required="required" placeholder="Email do Professor..." tabindex="1" alt="Email do Professor" title="Email do Professor" name="email" id="email" class="form-control" />
+                <label for="codigo">Código</label>
+                <input type="password" required="required" placeholder="Código do Professor..." tabindex="5" alt="Código do Professor" title="Código do Professor" name="codigo" id="codigo" class="form-control" />
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="submit" tabindex="10" alt="Entrar" name="entrar" class="btn btn-success" value="Entrar" />
+                </div>
+                <div class="col-md-3">
+                    <input type="submit" tabindex="15" alt="Esqueci meu Código" name="esquecicodigo" class="btn btn-secondary" value="Esqueci o Código" />
+                </div>
+                <div class="col-md-3">
+                    <input type="submit" tabindex="20" alt="Novo Usuário" name="novousuario" id="novousuario" class="btn btn-secondary" value="Novo Usuário" />
+                </div>
+                <div class="col-md-2">
+                    <input type="button" tabindex="25" alt="Voltar" name="voltar" id="voltar" class="btn btn-primary btn-group-sm" value="Voltar" />
+                </div>
+            </div>
+        </form>
+    </article>
+</article>

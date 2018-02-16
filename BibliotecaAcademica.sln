@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Camada de Apresentação", "1 - Camada de Apresentação", "{AAC59E0B-F4D9-479D-B6A0-9D8F390E6CB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de Aplicação", "2 - Camada de Aplicação", "{C4A13493-8AC9-4B89-81E0-F3042A28DB23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Domínio", "3 - Camada de Domínio", "{7A3B64DA-5AD4-40DF-8BCD-41D3B9C291FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Camada de InfraEstrutura", "4 - Camada de InfraEstrutura", "{F9EC7B0B-C525-4165-8341-1CD2D2CC62B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaAcademica.Web", "BibliotecaAcademica.Web\BibliotecaAcademica.Web.csproj", "{CA8376BA-FC57-4ED9-A239-9AA047E1069A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaAcademica.App", "BibliotecaAcademica.App\BibliotecaAcademica.App.csproj", "{59219BC0-DB6C-4EBB-AB27-42FD5BF60D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaAcademica.Domain", "BibliotecaAcademica.Domain\BibliotecaAcademica.Domain.csproj", "{862A744A-4440-41A9-93B4-4F772F51C9B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Camada de Persistência", "4.1 - Camada de Persistência", "{725954EF-F9B1-4BAF-AD7F-86D83E67D0F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Camada de Serviços de Infraestrutura", "4.2 - Camada de Serviços de Infraestrutura", "{F4B42419-8B43-4E01-9F3E-05CE7A83262A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1.1 - Camada de Banco de Dados - SGBD", "4.1.1 - Camada de Banco de Dados - SGBD", "{41DEE081-6F6E-4659-A89A-E1D388AC7306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaAcademica.SGBD", "BibliotecaAcademica.SGBD\BibliotecaAcademica.SGBD.csproj", "{1839F414-E8AC-4612-A3C5-5CC6A1FB1B5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.1 - Camada das Regras do Sistema", "4.2.1 - Camada das Regras do Sistema", "{AA7B29AE-2B0D-4E20-8B1B-2552F6D2C6BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.2 - Camada de Serviços", "4.2.2 - Camada de Serviços", "{640DAE5E-02A2-46C8-B524-F15F2EDB1F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.3 - Camada de Utilitários", "4.2.3 - Camada de Utilitários", "{9DFBE971-E9D2-474F-A54C-E66C5FEB4706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.3.1 - Camada de Mensagens", "4.2.3.1 - Camada de Mensagens", "{F481691A-F4DA-4735-BE58-ED9BACB44B25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.3.2 - Camada de Criptografia", "4.2.3.2 - Camada de Criptografia", "{07F0F404-711D-4DE0-9726-93CC358D4B68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.1.1 - Camada de Validação das Regras de Domínio", "4.2.1.1 - Camada de Validação das Regras de Domínio", "{DA7947AA-A555-46F8-90B7-967C154E7A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaAcademica.CommonValidationDomain", "BibliotecaAcademica.CommonValidationDomain\BibliotecaAcademica.CommonValidationDomain.csproj", "{6591E969-4357-4E76-BB6D-F85B775C53CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.1.2 - Camada de Validação das Regras de Persistência", "4.2.1.2 - Camada de Validação das Regras de Persistência", "{6C169E2D-F29A-4119-95C0-6D47FE5EA6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaAcademica.CommonValidationPersistence", "BibliotecaAcademica.CommonValidationPersistence\BibliotecaAcademica.CommonValidationPersistence.csproj", "{03A9E0C1-2CA8-4138-82C2-B2CBC528E16A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.4 - Camada de IOC", "4.2.4 - Camada de IOC", "{36528356-72F5-488C-AE08-3084E8A62038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaAcademica.IOC", "BibliotecaAcademica.IOC\BibliotecaAcademica.IOC.csproj", "{AEE22FAF-2929-41D5-968E-EF62F5FED267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA8376BA-FC57-4ED9-A239-9AA047E1069A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8376BA-FC57-4ED9-A239-9AA047E1069A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8376BA-FC57-4ED9-A239-9AA047E1069A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8376BA-FC57-4ED9-A239-9AA047E1069A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59219BC0-DB6C-4EBB-AB27-42FD5BF60D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59219BC0-DB6C-4EBB-AB27-42FD5BF60D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59219BC0-DB6C-4EBB-AB27-42FD5BF60D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59219BC0-DB6C-4EBB-AB27-42FD5BF60D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862A744A-4440-41A9-93B4-4F772F51C9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862A744A-4440-41A9-93B4-4F772F51C9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862A744A-4440-41A9-93B4-4F772F51C9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862A744A-4440-41A9-93B4-4F772F51C9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1839F414-E8AC-4612-A3C5-5CC6A1FB1B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1839F414-E8AC-4612-A3C5-5CC6A1FB1B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1839F414-E8AC-4612-A3C5-5CC6A1FB1B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1839F414-E8AC-4612-A3C5-5CC6A1FB1B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6591E969-4357-4E76-BB6D-F85B775C53CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6591E969-4357-4E76-BB6D-F85B775C53CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6591E969-4357-4E76-BB6D-F85B775C53CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6591E969-4357-4E76-BB6D-F85B775C53CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A9E0C1-2CA8-4138-82C2-B2CBC528E16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A9E0C1-2CA8-4138-82C2-B2CBC528E16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A9E0C1-2CA8-4138-82C2-B2CBC528E16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A9E0C1-2CA8-4138-82C2-B2CBC528E16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE22FAF-2929-41D5-968E-EF62F5FED267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE22FAF-2929-41D5-968E-EF62F5FED267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE22FAF-2929-41D5-968E-EF62F5FED267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE22FAF-2929-41D5-968E-EF62F5FED267}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA8376BA-FC57-4ED9-A239-9AA047E1069A} = {AAC59E0B-F4D9-479D-B6A0-9D8F390E6CB4}
+		{59219BC0-DB6C-4EBB-AB27-42FD5BF60D1E} = {C4A13493-8AC9-4B89-81E0-F3042A28DB23}
+		{862A744A-4440-41A9-93B4-4F772F51C9B3} = {7A3B64DA-5AD4-40DF-8BCD-41D3B9C291FE}
+		{725954EF-F9B1-4BAF-AD7F-86D83E67D0F0} = {F9EC7B0B-C525-4165-8341-1CD2D2CC62B4}
+		{F4B42419-8B43-4E01-9F3E-05CE7A83262A} = {F9EC7B0B-C525-4165-8341-1CD2D2CC62B4}
+		{41DEE081-6F6E-4659-A89A-E1D388AC7306} = {725954EF-F9B1-4BAF-AD7F-86D83E67D0F0}
+		{1839F414-E8AC-4612-A3C5-5CC6A1FB1B5B} = {41DEE081-6F6E-4659-A89A-E1D388AC7306}
+		{AA7B29AE-2B0D-4E20-8B1B-2552F6D2C6BD} = {F4B42419-8B43-4E01-9F3E-05CE7A83262A}
+		{640DAE5E-02A2-46C8-B524-F15F2EDB1F3D} = {F4B42419-8B43-4E01-9F3E-05CE7A83262A}
+		{9DFBE971-E9D2-474F-A54C-E66C5FEB4706} = {F4B42419-8B43-4E01-9F3E-05CE7A83262A}
+		{F481691A-F4DA-4735-BE58-ED9BACB44B25} = {9DFBE971-E9D2-474F-A54C-E66C5FEB4706}
+		{07F0F404-711D-4DE0-9726-93CC358D4B68} = {9DFBE971-E9D2-474F-A54C-E66C5FEB4706}
+		{DA7947AA-A555-46F8-90B7-967C154E7A38} = {AA7B29AE-2B0D-4E20-8B1B-2552F6D2C6BD}
+		{6591E969-4357-4E76-BB6D-F85B775C53CE} = {DA7947AA-A555-46F8-90B7-967C154E7A38}
+		{6C169E2D-F29A-4119-95C0-6D47FE5EA6BF} = {AA7B29AE-2B0D-4E20-8B1B-2552F6D2C6BD}
+		{03A9E0C1-2CA8-4138-82C2-B2CBC528E16A} = {6C169E2D-F29A-4119-95C0-6D47FE5EA6BF}
+		{36528356-72F5-488C-AE08-3084E8A62038} = {F4B42419-8B43-4E01-9F3E-05CE7A83262A}
+		{AEE22FAF-2929-41D5-968E-EF62F5FED267} = {36528356-72F5-488C-AE08-3084E8A62038}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2BDCF1F-46D3-4C43-A0D2-7042FCA3B7FD}
+	EndGlobalSection
+EndGlobal

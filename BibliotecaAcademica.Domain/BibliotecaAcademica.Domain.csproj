@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{862A744A-4440-41A9-93B4-4F772F51C9B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BibliotecaAcademica.Domain</RootNamespace>
+    <AssemblyName>BibliotecaAcademica.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DomainContextBasic\DomainContext\Entity\Abstracts\Usuarios\Usuario.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Entity\Concretes\Alunos\Aluno.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Entity\Concretes\Autores\Autor.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Entity\Concretes\Editoras\Editora.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Entity\Concretes\Exemplares\Exemplar.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Entity\Concretes\Funcionarios\Funcionario.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Entity\Concretes\Livros\Livro.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Entity\Concretes\Professores\Professor.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Enum\Logradouros\Logradouro.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Enum\TiposFuncionarios\TipoFuncionario.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Enum\TiposUsuarios\TipoUsuario.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Enum\Zonas\Zonas.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Enum\_Status\Status.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\ObjectValue\AreaConhecimento\AreaConhecimento.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\ObjectValue\Endereco\Endereco.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\ObjectValue\Localizacao\Localizacao.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\ObjectValue\Telefone\Telefone.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Relationship\AlunosExemplares\AlunoExemplar.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Relationship\AutoresLivros\AutorLivro.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Relationship\FuncionariosExemplares\FuncionarioExemplar.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Relationship\FuncionariosLivros\FuncionarioLivro.cs" />
+    <Compile Include="DomainContextBasic\DomainContext\Relationship\ProfessoresExemplares\ProfessorExemplar.cs" />
+    <Compile Include="DomainContextBasic\DomainServices\DomainServicesBases\DomainServicesBase.cs" />
+    <Compile Include="DomainContextBasic\DomainServices\DomainServicesEntity\DomainServicesAlunos\DomainServicesAluno.cs" />
+    <Compile Include="DomainContextBasic\DomainServices\DomainServicesEntity\DomainServicesAutores\DomainServicesAutor.cs" />
+    <Compile Include="DomainContextBasic\DomainServices\DomainServicesEntity\DomainServicesEditoras\DomainServicesEditora.cs" />
+    <Compile Include="DomainContextBasic\DomainServices\DomainServicesEntity\DomainServicesExemplares\DomainServicesExemplar.cs" />
+    <Compile Include="DomainContextBasic\DomainServices\DomainServicesEntity\DomainServicesFuncionarios\DomainServicesFuncionario.cs" />
+    <Compile Include="DomainContextBasic\DomainServices\DomainServicesEntity\DomainServicesLivros\DomainServicesLivro.cs" />
+    <Compile Include="DomainContextBasic\DomainServices\DomainServicesEntity\DomainServicesProfessores\DomainServicesProfessor.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsAppServices\IContractsAppBases\IContractsAppBase.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsAppServices\IContractsAppEntity\IContractsAppAlunos\IContractsAppAluno.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsAppServices\IContractsAppEntity\IContractsAppAutores\IContractsAppAutor.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsAppServices\IContractsAppEntity\IContractsAppEditoras\IContractsAppEditora.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsAppServices\IContractsAppEntity\IContractsAppExemplares\IContractsAppExemplar.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsAppServices\IContractsAppEntity\IContractsAppFuncionarios\IContractsAppFuncionario.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsAppServices\IContractsAppEntity\IContractsAppLivros\IContractsAppLivro.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsAppServices\IContractsAppEntity\IContractsAppProfessores\IContractsAppProfessor.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsDomainServices\IContractsDomainServicesBases\IContractsDomainServicesBase.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsDomainServices\IContractsDomainServicesEntity\IContractsDomainServicesAlunos\IContractsDomainServicesAluno.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsDomainServices\IContractsDomainServicesEntity\IContractsDomainServicesAutores\IContractsDomainServicesAutor.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsDomainServices\IContractsDomainServicesEntity\IContractsDomainServicesEditoras\IContractsDomainServicesEditora.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsDomainServices\IContractsDomainServicesEntity\IContractsDomainServicesExemplares\IContractsDomainServicesExemplar.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsDomainServices\IContractsDomainServicesEntity\IContractsDomainServicesFuncionarios\IContractsDomainServicesFuncionario.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsDomainServices\IContractsDomainServicesEntity\IContractsDomainServicesLivros\IContractsDomainServicesLivro.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsDomainServices\IContractsDomainServicesEntity\IContractsDomainServicesProfessores\IContractsDomainServicesProfessor.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsInfraEstructure\IContractsSGBDServices\IContractsSGBDBases\IContractsSGBDBase.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsInfraEstructure\IContractsSGBDServices\IContractsSGBDEntity\IContractsSGBDAlunos\IContractsSGBDAluno.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsInfraEstructure\IContractsSGBDServices\IContractsSGBDEntity\IContractsSGBDAutores\IContractsSGBDAutor.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsInfraEstructure\IContractsSGBDServices\IContractsSGBDEntity\IContractsSGBDEditoras\IContractsSGBDEditora.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsInfraEstructure\IContractsSGBDServices\IContractsSGBDEntity\IContractsSGBDExemplares\IContractsSGBDExemplar.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsInfraEstructure\IContractsSGBDServices\IContractsSGBDEntity\IContractsSGBDFuncionarios\IContractsSGBDFuncionario.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsInfraEstructure\IContractsSGBDServices\IContractsSGBDEntity\IContractsSGBDLivros\IContractsSGBDLivro.cs" />
+    <Compile Include="DomainContextBasic\IContracts\IContractsInfraEstructure\IContractsSGBDServices\IContractsSGBDEntity\IContractsSGBDProfessores\IContractsSGBDProfessor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotecaAcademica.CommonValidationDomain\BibliotecaAcademica.CommonValidationDomain.csproj">
+      <Project>{6591e969-4357-4e76-bb6d-f85b775c53ce}</Project>
+      <Name>BibliotecaAcademica.CommonValidationDomain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

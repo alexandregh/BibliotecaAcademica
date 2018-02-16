@@ -1,0 +1,63 @@
+﻿/* --- ELEMENTOS ---  */
+h3 {
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    font-family : 'Times New Roman', Times, serif;
+    font-size : 20px;
+}
+
+/*________________________________________________________________________*/
+
+/* --- CLASSES ---  */
+/* <TELA DE LOGIN> */
+.bodyHome {
+    background-color:#191919;
+}
+.background {
+    background-image: url('../Imagens/BackgroundHome/BackgroundHome.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 655px;
+}
+.telaHome {
+    margin-top: 30%;
+    min-height: 190px;
+}
+.telaLogin {
+    margin-top: 12%;
+    height: 290px;
+    border-radius: 8px 8px;
+    background-image: url('../Imagens/BackgroundHome/BackgourdLogin.jpg');    
+}
+.telaCadastroAluno {
+    margin-top: 12%;
+    height: 290px;
+    border-radius: 8px 8px;
+    background-image: url('../Imagens/BackgroundHome/BackgourdLogin.jpg');
+}
+#email:focus{
+    background-color: #070606;
+    color:#ffffff;
+}
+#codigo:focus {
+    background-color: #070606;
+    color: #ffffff;
+}
+.tituloH3 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+}
+.tituloH6 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+/* </TELA DE LOGIN> */

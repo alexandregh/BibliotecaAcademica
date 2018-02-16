@@ -1,0 +1,8 @@
+C:\Users\Alexandre\source\repos\BibliotecaAcademica\BibliotecaAcademica.Domain\bin\Debug\BibliotecaAcademica.Domain.dll
+C:\Users\Alexandre\source\repos\BibliotecaAcademica\BibliotecaAcademica.Domain\bin\Debug\BibliotecaAcademica.Domain.pdb
+C:\Users\Alexandre\source\repos\BibliotecaAcademica\BibliotecaAcademica.Domain\bin\Debug\BibliotecaAcademica.CommonValidationDomain.dll
+C:\Users\Alexandre\source\repos\BibliotecaAcademica\BibliotecaAcademica.Domain\bin\Debug\BibliotecaAcademica.CommonValidationDomain.pdb
+C:\Users\Alexandre\source\repos\BibliotecaAcademica\BibliotecaAcademica.Domain\obj\Debug\BibliotecaAcademica.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre\source\repos\BibliotecaAcademica\BibliotecaAcademica.Domain\obj\Debug\BibliotecaAcademica.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alexandre\source\repos\BibliotecaAcademica\BibliotecaAcademica.Domain\obj\Debug\BibliotecaAcademica.Domain.dll
+C:\Users\Alexandre\source\repos\BibliotecaAcademica\BibliotecaAcademica.Domain\obj\Debug\BibliotecaAcademica.Domain.pdb

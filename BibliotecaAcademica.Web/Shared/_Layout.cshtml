@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Biblioteca Acadêmica de Livros OnLine</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-reboot.min.css" rel="stylesheet" />
+    <link href="~/Extras/css/css.css" rel="stylesheet" />
+</head>
+<body class="bodyHome">
+    <div class="container-fluid">
+        <section class="row">
+            <section class="col-md-12 img-fluid background">
+                @RenderBody()
+            </section>
+        </section>
+    </div>
+    <script src="~/Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="~/Extras/js/Links.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Botão Entrar / Login...
+            $("#btnEntrar").click(function () {
+                var model = {
+                    Email: $("#email").val(),
+                    Codigo: $("#codigo").val()
+                };
+                //JSON.stringify
+                //alert(JSON.stringify(model));
+                $.ajax({
+                    type: "POST", //tipo da requisição..
+                    url: "/Alunos/LogarAluno", //método no controller..
+                    data: model, //enviando o JSON..
+                    success: function (msg) {
+                        alert("OK. Aqui!");
+                        $("#email").val("");
+                        $("#codigo").val("");
+                    },
+                    error: function (ex) {
+                        alert("Ocorreu o seguinte erro: " + ex.status);
+                    }
+                });
+            });
+            //__________________________________
+
+        });
+    </script>
+</body>
+</html>
